@@ -1,0 +1,4 @@
+<div *ngIf= "user !== undefined && user !== null">
+<p>{{ userService.selectedUser.name }} est {{userService.selectedUser.jobTitle}}</p>  
+<img class="vignette" src="{{userService.selectedUser.image}}"/>
+</div>
